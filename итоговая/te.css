@@ -45,8 +45,8 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   width: 525px;
   max-width: 90%;
-  align-items: baseline;
 }
+
 
 .subtext {
   color: black;
@@ -54,9 +54,6 @@ body {
       flex-wrap: wrap;
       justify-content: center;
       margin-top: 10px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
   }
 
 
@@ -88,7 +85,6 @@ body {
 
     .subtext {
       font-size: 1.2rem;
-      margin-right: 10px;
     }
 
     .quote {

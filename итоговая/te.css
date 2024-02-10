@@ -48,14 +48,17 @@ body {
 }
 
 .subtext {
-  font-size: 2rem;
   color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
 
-}
+
 .subtext a {
   color: black;
   text-decoration: none;

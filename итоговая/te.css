@@ -48,11 +48,12 @@ body {
 }
 
 .subtext {
-  display: inline-block;
   font-size: 2rem;
   color: black;
-  max-width: 525px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 }
 .subtext a {

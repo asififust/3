@@ -51,6 +51,8 @@ body {
   display: inline-block;
   font-size: 2rem;
   color: black;
+  max-width: 525px;
+
 
 }
 .subtext a {
